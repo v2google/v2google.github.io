@@ -1,0 +1,7 @@
+# Site settings
+title: 2016年3月19日最新Google hosts文件 | v2Google
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.v2google.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

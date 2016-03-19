@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>   
+	<div class="alert"><i class="fa fa-lightbulb-o"></i> <a href="http://www.v2google.com">v2Google</a>始终提供最新的、可用的Google hosts文件供您下载，v2Goole = Way to Google! 这里，有最简单的访问Google的方法!</div>
+        <div class="update-time">2016-03-19更新</div>
+        {{ post.content }}
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
+
+     <footer class="entry-meta">      
+
+		<div class="jiathis_style">
+			<span class="jiathis_txt">分享到：</span>
+			<a class="jiathis_button_weixin" style="color: #000099">微信朋友圈</a>
+			<a class="jiathis_button_qzone" style="color: #000099">QQ空间</a>
+			<a class="jiathis_button_tsina" style="color: #000099">新浪微博</a>			  
+			<a class="jiathis_button_copy" style="color: #000099">复制</a>
+			<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+			<a class="jiathis_counter_style"></a>
+		</div>
+		<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+		<br>
+    </footer>
+
+
+<div class="ds-thread" data-url="http://www.v2google.com">
+</div>
+
+	
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"v2google"};
+  (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+
