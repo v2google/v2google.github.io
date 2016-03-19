@@ -21,9 +21,8 @@ categories: google hosts
 
 
 {% highlight ruby %}
-# Last updated: 2016-2-17
-# This work is licensed under a CC BY-NC-SA 4.0 International License.
-# https://creativecommons.org/licenses/by-nc-sa/4.0/
+# Last updated: 2016-03-19
+# http://www.v2google.com/
 
 # Localhost (DO NOT REMOVE)
 127.0.0.1   localhost
