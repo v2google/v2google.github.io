@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  </head>
+
+  <body>
+
+    <main class="wrapper">
+	<nav class="navigation">
+	  <section class="container">
+
+	    <a class="navigation-title" href="{{ site.baseurl }}" title="最好用的Google hosts文件">
+	      <div><img src="img/logo.jpg" align=left border=0></div>
+	      <!-- <img class="img" src="img/logo.svg" height="30" alt="Milligram" title="Milligram"> -->	      
+	    </a>
+	    
+	  </section>
+	</nav>
+    </main>    
+
+    <div class="body-content">
+      <div class="page-content">
+	  {{ content }}
+	
+	<div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+      <div class="wrapper">
+	      <span style="text-align:center;">v2Google &copy; 2015-2016. 本站内容均来自互联网，若侵犯了您的权利，请留言与管理员联系!</span>
+      </div>
+
+    </footer>
+    
+    <div id="gotop">   
+      <span>▲</span> 
+    </div>
+    <script src="/js/main.js"></script>
+
+  </body>
+
+</html>

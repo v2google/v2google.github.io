@@ -10,6 +10,7 @@ categories: google hosts
 **Winwods用户**
 
 请复制下方的代码，然后使用记事本等编辑工具**将复制的内容粘贴**到```C:\Windows\System32\drivers\etc```文件夹下的hosts文件中！
+(保存时可放心忽略杀毒软件的提示)。
 
 ![](http://7xj852.com1.z0.glb.clouddn.com/blog/2015/08/27/QQ20151017092234.jpg)
 
@@ -17,7 +18,9 @@ categories: google hosts
 
 请复制下方的代码，然后使用编辑器**将复制的内容粘贴**到```/etc```文件夹下的hosts文件中！
 
-(保存时可放心忽略杀毒软件的提示)。
+![](http://7xj852.com1.z0.glb.clouddn.com/mac-hosts.jpg)
+
+这里需要注意的是，直接修改Mac hosts文件可能会因为没有权限，而不起作用，解决办法是: 将hosts文件复制一份到桌面，编辑完后后再复制进去替换，替换过程中您需要输入一次管理员密码。
 
 
 {% highlight ruby %}
