@@ -22,6 +22,58 @@ categories: google hosts
 
 这里需要注意的是，直接修改Mac hosts文件可能会因为没有权限，而不起作用，**解决办法**是: 将hosts文件复制一份到桌面，编辑完后后再复制进去替换，替换过程中您需要输入一次管理员密码。
 
+	# Last updated: 2016-03-19
+	# http://www.v2google.com/
+
+	# Localhost (DO NOT REMOVE)
+	127.0.0.1   localhost
+	255.255.255.255 broadcasthost
+	::1 localhost
+	fe80::1%lo0 localhost
+	# Last updated: 2016-03-19
+	# http://www.v2google.com/
+	# Last updated: 2016-03-19
+  	# http://www.v2google.com/
+
+	# Localhost (DO NOT REMOVE)
+	127.0.0.1   localhost
+	255.255.255.255 broadcasthost
+	::1 localhost
+	fe80::1%lo0 localhost
+	# Last updated: 2016-03-19
+	# http://www.v2google.com/
+	# Last updated: 2016-03-19
+  	# http://www.v2google.com/
+
+	# Localhost (DO NOT REMOVE)
+	127.0.0.1   localhost
+	255.255.255.255 broadcasthost
+	::1 localhost
+	fe80::1%lo0 localhost
+	# Last updated: 2016-03-19
+	# http://www.v2google.com/
+	# Last updated: 2016-03-19
+  	# http://www.v2google.com/
+
+	# Localhost (DO NOT REMOVE)
+	127.0.0.1   localhost
+	255.255.255.255 broadcasthost
+	::1 localhost
+	fe80::1%lo0 localhost
+	# Last updated: 2016-03-19
+	# http://www.v2google.com/
+	# Last updated: 2016-03-19
+  	# http://www.v2google.com/
+
+	# Localhost (DO NOT REMOVE)
+	127.0.0.1   localhost
+	255.255.255.255 broadcasthost
+	::1 localhost
+	fe80::1%lo0 localhost
+	# Last updated: 2016-03-19
+	# http://www.v2google.com/
+
+
 
 {% highlight ruby %}
 # Last updated: 2016-03-19
