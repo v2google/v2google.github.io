@@ -20,7 +20,7 @@ categories: google hosts
 
 ![](http://7xj852.com1.z0.glb.clouddn.com/mac-hosts.jpg)
 
-这里需要注意的是，直接修改Mac hosts文件可能会因为没有权限，而不起作用，解决办法是: 将hosts文件复制一份到桌面，编辑完后后再复制进去替换，替换过程中您需要输入一次管理员密码。
+这里需要注意的是，直接修改Mac hosts文件可能会因为没有权限，而不起作用，**解决办法**是: 将hosts文件复制一份到桌面，编辑完后后再复制进去替换，替换过程中您需要输入一次管理员密码。
 
 
 {% highlight ruby %}
