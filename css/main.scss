@@ -52,6 +52,24 @@
         // "syntax-highlighting"
 ;
 
+.gotop {
+  display:inline;  
+  width:36px; 
+  height:36px;
+  position:fixed;  
+  bottom:40px;  
+  right:30px; 
+  border-radius:7px;
+  text-decoration:none;  
+  background-color: #2fa4e7;
+}
+
+.gotop span {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+}
+
 pre,
 blockquote,
 dl,
